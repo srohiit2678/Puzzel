@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Courier, monospace;
+   
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('WhatsApp\ Image\ 2023-09-28\ at\ 13.07.15.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.logo{
+    margin-top: 22px;
+    margin-right: 20px;
+    padding: 0px 0px 1px 10px;
+
+    width: 90px;
+    cursor: pointer;
+    
+    box-shadow: #000;
+    border-radius: 50%;
+}
+
+.slide{
+    animation: color 3s infinite alternate;
+}
+@keyframes color {
+    0%{
+        color: aqua;
+    }
+    15%{
+        color: #f74a37;
+    }
+    25%{
+        color: #07ff28;
+    }
+    35%{
+        color: rgb(255, 7, 205);
+    }
+    45%{
+        color: #ccee09;
+    }
+    50%{
+        color: rgb(0, 0, 0);
+    }
+    65%{
+        color: #f74a37;
+    }
+    75%{
+        color: #ff0707;
+    }
+    85%{
+        color: rgb(247, 247, 247);
+    }
+    100%{
+        color: #2b09ee;
+    }
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;  
+    font-size: 20px;
+}
+ul{
+    float: right;
+}
+
+.first{
+    
+    text-decoration:none ;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    align-items: end;
+    padding: 9px 9px 9px 9px;
+    position: relative;
+    
+    color: #ffffff;
+   
+   }
+   .first:hover{
+    text-decoration:underline #07ffa8;
+   
+   }
+   #fabout{
+    border: 1px;
+    color: #ffffff;
+    margin: 40px;
+   
+  }
+   #fhome{
+    border: 1px;
+        color: #ffffff;
+        margin: 40px;
+   }
+   #fcontact
+    {
+        border: 1px;
+        color: #ffffff;
+        margin: 40px;
+}
+   #ffeed {
+    border: 1px;
+        color: #ffffff;
+        margin: 40px;
+   }
+ 
+ 
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.cole{
+    flex-basis: 50%;
+}
+.col{
+    flex-basis: 50%;
+  
+}
+h1{
+    display: block;
+    font-size: 90px;
+}
+#pree{
+    color: #fff;
+    font-size: 20px;
+    line-height: 15px;
+}
+.but{
+    width: 180PX;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+   display: block;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border: 5px solid rgb(58, 14, 234);
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin: 20px 50px;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.);
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s ;
+}
+
+.card1{
+    background-image: url('dora.jpg');
+    
+}
+.card2{
+    background-image: url('pokemon.jpg');
+  
+}
+.card3{
+    background-image: url('season-13.jpeg');
+}
+.card4{
+    background-image: url('numbers.jpg');
+}
+
+
+.card:hover{
+    
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
