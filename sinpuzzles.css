@@ -7,15 +7,41 @@ body{
     text-align: center;
     color:  #80bae6;
 }
+
 .bg {
     background-image: url("sinchanbg.jpg.jpg");
+    position: fixed;
+    width: 100%;
     height: 100%;
     filter: blur(5px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+    /* position: absolute; */
+ 
 }
+.navbar{
+    width: 100%;
+   font-size: 20px;
+    position: absolute;
+    text-align: right;
+}
+.navbar a{
+        float: right;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 15px 46px;
+        /* position: absolute; */
+       
+    }
+  
+
+    /* Change color on hover */
+    .navbar a:hover {
+        background-color: #ddd;
+        color: rgb(17, 135, 204);
+    }
 .fg { 
     border: 3px;
     position: absolute;

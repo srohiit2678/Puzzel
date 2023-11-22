@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Style the navbar container */
+        .navbar {
+            background-color: #07673a;
+            overflow: hidden;
+            font-size: 20px;
+            height: 75px;
+            padding: 15px;
+        }
+
+        /* Style the navbar links */
+        .navbar a {
+            float: right;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 46px;
+            text-decoration: none;
+           
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: rgb(17, 135, 204);
+        }
+
+       
+        /* Style the navbar header */
+        .navbar h1 {
+            color: white;
+            padding: 14px 16px;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Center the navbar header on smaller screens */
+        @media screen and (max-width: 600px) {
+            .navbar h1 {
+                float: none;
+                text-align: center;
+            }
+        }
+        
+        body {
+            background-color: #5b576e;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 3rem auto;
+            padding: 20px;
+            /* background-color: #ffffff; */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 5px;
+        }
+
+        .container:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+            border-radius: 5px;
+        }
+        
+        h1 {
+            text-align: left;
+            color: rgb(244, 231, 231);
+        }
+        
+        .credit-item {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            transition: all 0.5s;
+        }
+
+        .credit-item:hover {
+            box-shadow: 0 0 20px rgb(247, 115, 38);
+            border-radius: 2rem;
+            transform: scale(1.05);
+            font-size: large;
+        }
+
+
+        
+        .credit-image {
+            max-width: 100px;
+            max-height: 100px;
+            margin-right: 20px;
+            border-radius: 50%;
+            border: 2px solid #333;
+            /* position: center; */
+        }
+        
+        .credit-text {
+            color: #f7f3f3;
+        }
+        /* footer */
+
+        .footer{
+        margin-top: 0px;
+        width: 100%;
+        padding: 15px 0%; 
+        background:#e6dfdf ;
+        color: #d07575;
+        display: flex;
+        position: absolute;
+        background-image: url(/images/joshua-hanson-e616t35Vbeg-unsplash.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+       .footer div{
+        text-align: centre;
+        }
+       .col-1{
+        flex: 2;
+        margin-left: 70px;
+        }
+       .footer div h3{
+       font-weight: 300;
+       margin-bottom: 8px;
+       letter-spacing: 1px;
+       }
+       .col-1 a{
+       display: block;
+       text-decoration: none;
+       color:#260202 ;
+       margin-bottom: 10px;
+      }
+      .col-2{
+        margin-right: 70px;
+      }
+      .social-icon{
+        display: flex;
+        justify-content: center;
+      }
+      .social-icon a {
+        display: inline-block;
+        margin: 20px 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000000;
+        background-color: #e0d4d4;
+      }
+
+      .social-icon a:hover {
+        opacity: 0.8;
+      }
+      #credit{
+        text-align: center;
+      }
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="usecases.html">contact us</a>
+        <a href="feed.html">Feedback</a>
+        <a href="About.html">About</a>
+        <a href="slidehome.html">Home</a>
+    </div>
+    <div class="container">
+        <h1 id="credit">Credit Page</h1>
+        
+        <div class="credit-item">
+            <img class="credit-image" src="profile.jpg" alt="Credit 1">
+            <p class="credit-text">Rohit Kumar ojha: Team Lead , Frontend , Disign.</p>
+        </div>
+        
+        <div class="credit-item">
+            <img class="credit-image" src="Rishika.png" alt="Credit 2">
+            <p class="credit-text">Rishika Patidar : Frontend.</p>
+        </div>
+        <div class="credit-item">
+            <img class="credit-image" src="ROHIT.png" alt="Credit 3">
+            <p class="credit-text">Rohit Sinha : Nothing.</p>
+        </div>
+        
+        <div class="credit-item">
+            <img class="credit-image" src="Rashmi.png" alt="Credit 3">
+            <p class="credit-text">Rashmi kanojiya : Nothing.</p>
+        </div>
+
+        <div class="credit-item">
+            <img class="credit-image" src="Ritik.jpg" alt="Credit 3">
+            <p class="credit-text">Ritik Nimbodiya : Nothing.</p>
+        </div>
+    </div>
+

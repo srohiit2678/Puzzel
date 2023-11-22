@@ -2,7 +2,7 @@ body {
   height: 100vh;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
-  filter: drop-shadow(0 0 10px rgb(245, 253, 2));
+  filter: drop-shadow(0 0 10px rgb(110, 253, 8));
 }
 .bg {
   
@@ -20,16 +20,17 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
- text-decoration: none;
- color: #090a0f;
- background: radial-gradient(ellipse at bottom, #ffffff 0%, #183ae4 100%);
- filter: drop-shadow(0 0 10px rgb(3, 2, 2));
+  text-decoration: none;
+  color: #090a0f;
+  background: radial-gradient(ellipse at bottom, #ffffff 0%, #5e6bae 100%);
+  filter: drop-shadow(0 0 10px rgb(255, 0, 0) 50);
 }
 
 .snow {
   position: absolute;
-  width: 15px;
+  width: 50px;
   height: 50px;
+  border-radius: 50%;
   background: white;
   
 }
