@@ -52,6 +52,7 @@ body{
 #title {
     height: auto;
     width: 600px;
+    
 }
 
 #board {
@@ -59,7 +60,7 @@ body{
     height: 360px;
     background-color: lightblue;
     border: 10px solid #0c67ae;
-
+    cursor: grab;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;

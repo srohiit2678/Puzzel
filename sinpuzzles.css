@@ -59,7 +59,7 @@ body{
     height: 360px;
     background-color: rgb(6, 99, 152);
     border: 10px solid #02192a;
-
+    cursor: grab;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
