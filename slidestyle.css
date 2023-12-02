@@ -1,0 +1,275 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Courier, monospace;
+   
+    
+} 
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('WhatsApp\ Image\ 2023-09-28\ at\ 13.07.15.jpg');
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    background-color: #07673a;
+    
+}
+.logo{
+    width: auto;
+    height: 100%;
+    cursor:pointer;
+}
+
+.hadding{
+
+    animation: color 3s infinite alternate;
+}
+@keyframes color {
+    0%{
+        color: aqua;
+    }
+    15%{
+        color: #f74a37;
+    }
+    25%{
+        color: #07ff28;
+    }
+    35%{
+        color: rgb(255, 7, 205);
+    }
+    45%{
+        color: #ccee09;
+    }
+    50%{
+        color: rgb(0, 0, 0);
+    }
+    65%{
+        color: #f74a37;
+    }
+    75%{
+        color: #ff0707;
+    }
+    85%{
+        color: rgb(247, 247, 247);
+    }
+    100%{
+        color: #2b09ee;
+    }
+}
+nav{
+    flex: 1;
+   
+}
+
+nav ul li {
+    display: table-cell;
+   
+   
+    font-size: 20px;
+}
+ul{
+    
+    float: right;
+}
+
+.first{
+    
+    text-decoration:none ;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    align-items: end;
+    position: relative;
+    color: #ffffff;
+   }
+.first:hover{
+    text-decoration:underline #07ffa8;
+   }
+   #fabout{
+    border: 1px;
+    color: #ffffff;
+    margin: 40px;
+  }
+   #fhome{
+    border: 1px;
+    color: #ffffff;
+    margin: 40px;
+   }
+#fcontact{
+    border: 1px;
+    color: #ffffff;
+    margin: 40px;
+}
+#ffeed {
+    border: 1px;
+    color: #ffffff;
+    margin: 40px;
+   } 
+   .row{
+    
+   display: flex;
+   margin-top: 20px;
+    
+}
+
+
+.cole {
+
+    max-width: 600px;
+    margin: 10rem 20px;
+    height: 50%;
+    /*background-color: #ffffff; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    flex-basis: 50%;
+
+}
+
+.cole:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    
+}
+
+
+.col{
+    margin-top: 20px;
+    display:flex;
+    max-width: 650px;
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #ffffff35;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    flex-basis: 50%;
+    height: 50%;
+  
+}
+
+.col:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    
+}
+
+h1{
+    display: block;
+    font-size: 90px;
+}
+#pree{
+    color: #fff;
+    font-size: 40px;
+    line-height: 15px;
+}
+.but{
+    width: 180PX;
+    color: #000;
+    font-size: 20px;
+    padding: 12px 0;
+
+    background:linear-gradient(90deg,#ff9933,#ffffff,#138808);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 50%;
+
+}
+.card{
+  
+    display: flex;
+    width: 90%;
+    height: auto;
+    border: 5px solid rgb(58, 14, 234);
+    border-radius: 10px;
+    padding:25px 25px;
+    box-sizing:border-box;
+    
+   
+    box-shadow: 0 0 10px rgb(133, 3, 198);
+
+   
+    transition:transform 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+.card1{
+    background-image: url('dora.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    margin: 25px;
+    filter:grayscale(100%);
+}
+.card2{
+    background-image: url('pokemon.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    margin: 25px;
+    filter:grayscale(100%);
+}
+.card3{
+    background-image: url('season-13.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    margin: 25px;
+    filter:grayscale(100%);
+}
+.card4{
+    background-image: url('numbers.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    margin: 25px;
+    filter:grayscale(100%);
+}
+
+
+.card:hover{  
+    transform: scale(1.1);
+    filter:grayscale(0);
+}
+.colms{
+margin: 20px;
+padding: 10px;
+}
+.colm{
+margin: 10px;
+padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
