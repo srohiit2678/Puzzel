@@ -121,7 +121,7 @@ function dragEnd() {
                  
             if(typeof dure === 'number'){
                 alert("Hwwrrrreeee......YOU WON THE GAME")   
-                    window.location.href="slidehome.html";
+                    window.location.href='../slidehome.html';
                 }
             });
             

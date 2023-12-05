@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+    body,html {
+        height: 100%;
+        margin: 0;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+        background-color: #ffffff;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        height: 200px;
+        width: 300px;
+        margin: 15px;
+        padding: 20px;
+        background-color: rgb(251, 247, 247);
+        box-shadow: 20px 20px 60px #00000091,inset -20px -20px 60px #ffffff8a;
+    }
+    .circle-1 {
+            margin: 0;
+            width: 100px;
+            height: 50px;
+            border-radius:100px 100px 0 0;
+            border-top: 2px solid #dea568;
+            border-left: 2px solid #dea568;
+            border-right: 2px solid #dea568;
+            animation: 2s loader linear infinite;
+            transform: origin 50% 100%;
+    }
+    .circle-2{
+        width: 80px;
+        height: 40px;
+        margin: 50px auto;
+        border-radius: 0 0 80px 80px;
+        border-bottom:4px solid #416A8A;
+        border-left:4px solid #416A8A;
+        border-right:4px solid #416A8A;
+        animation: 2s loader-reverse linear infinite;
+        transform-origin: 50% 0%;
+    }
+    .circle-3{
+        width: 60px;
+        height: 30px;
+        margin: 50px auto;
+        border-radius: 0 0 80px 80px;
+        border-bottom:2px solid #8a4158;
+        border-left:2px solid #8a4158;
+        border-right:2px solid #8a4158;
+        animation: 1s loader linear infinite;
+        transform-origin: 50% 0%;
+    }
+    .circle-4{
+        width: 40px;
+        height: 20px;
+        margin: 50px auto;
+        border-radius: 0 0 80px 80px;
+        border-bottom:5px solid #3ba136;
+        border-left:5px solid #3ba136;
+        border-right:5px solid #3ba136;
+        animation: 1.5s loader-reverse linear infinite;
+        transform-origin: 50% 0%;
+    }
+    @keyframes loader {
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes loader-reverse {
+        0%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: rotate(-360deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="loader-wrap">
+            <div class="loader">
+                <div class="circle-1 circle">
+                <div class="circle-2 circle">
+                <div class="circle-3 circle">
+                <div class="circle-4 circle">
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
