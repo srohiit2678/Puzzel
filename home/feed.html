@@ -1,103 +1,116 @@
 y<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feedback Form</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000; 
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+      }
+      .container {
+        width: 60%;
+        padding: 20px;
+        margin: auto;
+        margin-top: 150px;
+        justify-content: center;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        border-radius: 20px;
+      }
+      #email {
+        width: 95%;
+        height: 4.5vh;
+      }
+      h2 {
+        text-align: center;
+      }
+      form {
+        text-align: left;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="text"],
+      textarea {
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        background-color: #245366;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+      }
+      input[type="submit"]:hover {
+        background-color: black;
+        color: white;
+      }
+      .container input {
+        border-radius: 20 px;
+      }
+      .navbar a {
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 46px;
+        text-decoration: none;
+      }
 
-        }
-        .container {
-            width: 60%;         
-            padding: 20px;
-            margin:auto;
-            margin-top: 150px;
-            justify-content: center;
-            border: 1px solid #ccc; 
-            background-color: #ffffff;
-            border-radius: 20px;
-                              
-        }
-        #email{
-            width: 95%;
-            height: 4.5vh;
-        }
-        h2 {
-            text-align: center;
-        }
-        form {
-            text-align: left;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        input[type="text"],
-        textarea {
-            width: 95%;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        input[type="submit"] {
-            background-color: #245366;
-            color: rgb(0, 0, 0);
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-        }
-        input[type="submit"]:hover {
-            background-color: black;
-            color: white;
-            
-        }
-        .container input{
-            border-radius: 20 px;
-        }
-        .navbar a {
-            float: right;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 15px 46px;
-            text-decoration: none;
-           
-        }
-
-        /* Change color on hover */
-        .navbar a:hover {
-            background-color: #ddd;
-            color: rgb(17, 135, 204);
-        }
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: #ddd;
+        color: rgb(17, 135, 204);
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="navbar">
-        <a href="feed.html">contact us</a>
-        <a href="feed.html">Feedback</a>
-        <a href="About.html">About</a>
-        <a href="slidehome.html">Home</a>
+      <a href="feed.html">contact us</a>
+      <a href="feed.html">Feedback</a>
+      <a href="About.html">About</a>
+      <a href="slidehome.html">Home</a>
     </div>
     <div class="container">
-        <h2>Feedback Form</h2>
-        <form>
-            <label for="name">Name:</label>
+      <h2>Feedback Form</h2>
+      <form>
+        <label for="name">Name:</label>
 
-            <input type="text" placeholder="Enter your full name hear" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            
-            <input type="email" placeholder="@gmail.com" id="email" name="email" validity="@">
-            
-            <label for="feedback">Feedback:</label>
-            
-            <textarea id="feedback" placeholder="your feedback is valuable for us__:)" name="feedback" rows="4" ></textarea>
-            
-            <input type="submit" value="Submit">
-        </form>
+        <input
+          type="text"
+          placeholder="Enter your full name hear"
+          id="name"
+          name="name"
+          required
+        />
+
+        <label for="email">Email:</label>
+
+        <input
+          type="email"
+          placeholder="@gmail.com"
+          id="email"
+          name="email"
+          validity="@"
+        />
+
+        <label for="feedback">Feedback:</label>
+
+        <textarea
+          id="feedback"
+          placeholder="your feedback is valuable for us__:)"
+          name="feedback"
+          rows="4"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
     </div>
-</body>
+  </body>
 </html>
