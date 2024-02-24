@@ -41,7 +41,7 @@ body {
     color: #07ff28;
   }
   35% {
-    color: rgb(255, 7, 205);
+    color: rgb(103, 45, 91);
   }
   45% {
     color: #ccee09;
@@ -50,16 +50,16 @@ body {
     color: rgb(0, 0, 0);
   }
   65% {
-    color: #f74a37;
+    color: #963c31;
   }
   75% {
-    color: #ff0707;
+    color: #07ffa4;
   }
   85% {
     color: rgb(247, 247, 247);
   }
   100% {
-    color: #2b09ee;
+    color: #332682;
   }
 }
 nav {
@@ -159,7 +159,7 @@ h1 {
   font-size: 20px;
   padding: 12px 0;
 
-  background: linear-gradient(90deg, #ff9933, #ffffff, #138808);
+  background: linear-gradient(90deg, #daff33, #ffffff, #085f88);
   border: 0;
   border-radius: 20px;
   outline: none;
