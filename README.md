@@ -1,2 +1,2 @@
-# Puzzel
-Game to solve the puzzel
+# Puzzle
+Game to solve the puzzle
